@@ -1,12 +1,14 @@
 package com.thefigure8.MyToDoApp;
 
-import org.springframework.boot.SpringApplication;
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import static org.springframework.boot.SpringApplication.*;
 
 @SpringBootApplication
 public class MyToDoAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MyToDoAppApplication.class, args);
+		run(MyToDoAppApplication.class, args);
 	}
 }
